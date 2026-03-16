@@ -1,6 +1,12 @@
 # DCM Library
 
-A JAX-based Discrete Choice Model (DCM) framework for estimating spatial location choice via conditional logit. Agents (e.g., offenders or victims) choose among census blocks; the model captures how distance, demographic similarity, and local features drive those choices.
+A JAX-based Discrete Choice Model (DCM) framework for estimating spatial location choice via conditional logit. Agents (e.g., offenders or victims) choose among census blocks; the model captures how distance, demographic similarity, and local features drive those choices. Unlike prior crime-location-choice studies that rely on sampled alternatives, this framework estimates over the **full choice set of 15,000+ census blocks**, enabled by JAX's CPU/GPU acceleration and memory-efficient chunked computation.
+
+## Citation
+
+If you use this code, please cite:
+
+> Hipp, J. R., & Wang, Y. (2026). How does the business environment shape mobility by offenders and mobile targets? *Crime & Delinquency*. https://doi.org/10.1177/00111287261423080
 
 ### Library structure (`dcm/`)
 
